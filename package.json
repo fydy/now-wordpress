@@ -1,0 +1,20 @@
+{
+  "name": "now-wordpress",
+  "version": "1.1.9",
+  "description": "基于now平台搭建wordpress.",
+  "main": "index.js",
+  "dependencies": {
+    "@fydy/php-bridge": "0.0.6",
+    "node-fetch": "2.3.0",
+    "yauzl": "2.10.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "now",
+    "wordpress"
+  ],
+  "author": "fydy",
+  "license": "ISC"
+}
