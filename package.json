@@ -4,7 +4,7 @@
   "description": "基于now平台搭建wordpress.",
   "main": "index.js",
   "dependencies": {
-    "@fydy/php-bridge": "0.0.6",
+    "@fydy/php-bridge": "0.0.8",
     "node-fetch": "2.3.0",
     "yauzl": "2.10.0"
   },
