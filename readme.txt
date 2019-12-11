@@ -1,0 +1,1 @@
+git init && git remote add origin https://github.com/fydy/now-php-bridge.git && git add . && git commit -m "first" && git push origin master -f

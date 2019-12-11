@@ -1,0 +1,14 @@
+{
+  "name": "@fydy/php-bridge",
+  "version": "0.0.9",
+  "license": "ISC",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "fastcgi-client": "0.0.1"
+  },
+  "peerDependencies": {
+    "@now/build-utils": ">=0.0.1"
+  },
+  "main": "index.js",
+  "author": "fydy"
+}

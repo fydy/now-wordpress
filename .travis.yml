@@ -1,0 +1,29 @@
+language : node_js
+node_js:
+ - stable
+install:
+- npm install
+os:
+ - linux
+
+stages:
+ - test
+ - name: deploy
+
+jobs:
+ include:
+   - stage: test
+     script:
+       - node --version
+       - npm --version
+       - echo "Testing Started ..."
+       - npm test
+       - echo "Testing Finished."
+
+  deploy:
+       provider: npm
+       email: you660555@gmail.com
+       api_key: "$NPM_TOKEN"
+       skip_cleanup: true
+       on:
+         all_branches: true
