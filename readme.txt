@@ -5,13 +5,19 @@ Please use the stable version: now-wordpress@1.3.25
 基于now平台搭建wordpress.
 
 ## 使用方法：
+
 - 安装nodejs环境，推荐使用NVM安装
+
 - 安装now
+
 ```
 npm i -g now@latest
 ```
+
 - 创建MYSQL数据库信息，我使用的市AWS RDS
+
 - 创建wp-config.php，并配置数据库信息，数据库信息在now.json中直接填写配置，或者使用`now secret add`
+
 ```
 <?php
 /**
@@ -110,7 +116,9 @@ if ( !defined('ABSPATH') )
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
 ```
+
 - 创建now.json
+
 ```
 {
   "version": 2,
@@ -129,7 +137,9 @@ require_once(ABSPATH . 'wp-settings.php');
   }
 }
 ```
+
 - 现在文件准备好了，运行`now login`命令登录
+
 - 运行`now dev`本地测试，或者运行`now`直接部署到now平台
 
 PHP版本：php7.3.12
