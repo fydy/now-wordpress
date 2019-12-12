@@ -2,7 +2,7 @@
 
 The stable version: now-wordpress@1.3.25
 
-基于now平台搭建wordpress.
+### 基于now平台搭建wordpress.
 
 ## 使用方法：
 
@@ -142,7 +142,9 @@ require_once(ABSPATH . 'wp-settings.php');
 
 - 运行`now dev`本地测试，或者运行`now`直接部署到now平台
 
-PHP版本：php7.3.12
+### PHP版本：php7.3.12
 
-已启用的PHP扩展：
+### 已启用的PHP扩展:
+```
 Core, date, libxml, openssl, pcre, zlib, filter, hash, Reflection, SPL, session, standard, cgi-fcgi, bcmath, bz2, calendar, ctype, curl, dom, mbstring, fileinfo, ftp, gd, gettext, iconv, imap, intl, json, exif, mcrypt, mysqlnd, PDO, pgsql, Phar, SimpleXML, soap, sockets, sodium, sqlite3, tokenizer, xml, xmlwriter, xsl, mysqli, pdo_mysql, pdo_pgsql, pdo_sqlite, xmlreader, xmlrpc, apcu, ds, phalcon, swoole, Zend OPcache
+```
