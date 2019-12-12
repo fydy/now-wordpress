@@ -1,6 +1,6 @@
-请使用稳定版：now-wordpress@1.3.25
+稳定版：now-wordpress@1.3.25
 
-Please use the stable version: now-wordpress@1.3.25
+The stable version: now-wordpress@1.3.25
 
 基于now平台搭建wordpress.
 
