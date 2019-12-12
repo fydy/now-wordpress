@@ -121,7 +121,7 @@ exports.build = async ({ files, entrypoint, config }) => {
   const lambda = await createLambda({
     files: { ...userFiles, ...bridgeFiles },
     handler: 'launcher.launcher',
-    runtime: 'nodejs12',
+    runtime: 'nodejs8.10',
   });
 
   const indexPhp = path.join(mountpoint, 'index.php');
