@@ -1,6 +1,8 @@
-稳定版：now-wordpress@1.3.25
+nodejs8.10 不再被支持，请使用如下版本部署:
+稳定版：now-wordpress@0.9.9
 
-The stable version: now-wordpress@1.3.25
+nodejs8.10 is no longer supported，Please use the following version to deploy：
+The stable version: now-wordpress@0.9.9
 
 # 基于now平台搭建wordpress.
 
@@ -123,7 +125,7 @@ require_once(ABSPATH . 'wp-settings.php');
 {
   "version": 2,
   "builds": [
-    { "src": "wp-config.php", "use": "@now-wordpress@1.3.25" }
+    { "src": "wp-config.php", "use": "now-wordpress@0.9.9" }
   ],
   "routes": [
     { "src": "/wp-admin/?", "dest": "index.php" },
@@ -141,10 +143,3 @@ require_once(ABSPATH . 'wp-settings.php');
 - 现在文件准备好了，运行`now login`命令登录
 
 - 运行`now dev`本地测试，或者运行`now`直接部署到now平台
-
-# PHP版本：php7.3.12
-
-# 已启用的PHP扩展:
-```
-Core, date, libxml, openssl, pcre, zlib, filter, hash, Reflection, SPL, session, standard, cgi-fcgi, bcmath, bz2, calendar, ctype, curl, dom, mbstring, fileinfo, ftp, gd, gettext, iconv, imap, intl, json, exif, mcrypt, mysqlnd, PDO, pgsql, Phar, SimpleXML, soap, sockets, sodium, sqlite3, tokenizer, xml, xmlwriter, xsl, mysqli, pdo_mysql, pdo_pgsql, pdo_sqlite, xmlreader, xmlrpc, apcu, ds, phalcon, swoole, Zend OPcache
-```
