@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@fydy/php-bridge@0.0.6":
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/@fydy/php-bridge/-/php-bridge-0.0.6.tgz#0997830774f14bf7006a49c817fc5f059540584d"
-  integrity sha512-iCPWXrv91eEe19IXANCnX31KoNNEYVkLf1Hd04fVUDCzyy+JI23IySL6S0/2Ye4pS9Tkj1orF2p5xjDr+9CrRw==
+"@fydy/php-bridge@0.2.4":
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/@fydy/php-bridge/-/php-bridge-0.2.4.tgz#0b65ed84927c6a99fb3b3e07d33334dfb4a79e07"
+  integrity sha512-dJZZ1b1EUWCvzfIswWcE+cEniGzgy5AFHz3MsiAUNZxYfDODiW+1eRUQDYK2/IwbFMiUcs2Key7y6K5PZxJTPQ==
   dependencies:
     child_process "^1.0.2"
     fastcgi-client "0.0.1"
@@ -32,10 +32,10 @@ fd-slicer@~1.1.0:
   dependencies:
     pend "~1.2.0"
 
-node-fetch@2.3.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.3.0.tgz#1a1d940bbfb916a1d3e0219f037e89e71f8c5fa5"
-  integrity sha512-MOd8pV3fxENbryESLgVIeaGKrdl+uaYhCSSVkjeOb/31/njTpcis5aWfdqgNlHIrKOLRbMnfPINPOML2CIFeXA==
+node-fetch@2.6.1:
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.1.tgz#045bd323631f76ed2e2b55573394416b639a0052"
+  integrity sha512-V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw==
 
 pend@~1.2.0:
   version "1.2.0"
