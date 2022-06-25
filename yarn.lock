@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@fydy/php-bridge@0.0.6":
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/@fydy/php-bridge/-/php-bridge-0.0.6.tgz#0997830774f14bf7006a49c817fc5f059540584d"
-  integrity sha512-iCPWXrv91eEe19IXANCnX31KoNNEYVkLf1Hd04fVUDCzyy+JI23IySL6S0/2Ye4pS9Tkj1orF2p5xjDr+9CrRw==
+"@fydy/php-bridge@0.2.4":
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/@fydy/php-bridge/-/php-bridge-0.2.4.tgz#0b65ed84927c6a99fb3b3e07d33334dfb4a79e07"
+  integrity sha512-dJZZ1b1EUWCvzfIswWcE+cEniGzgy5AFHz3MsiAUNZxYfDODiW+1eRUQDYK2/IwbFMiUcs2Key7y6K5PZxJTPQ==
   dependencies:
     child_process "^1.0.2"
     fastcgi-client "0.0.1"
@@ -32,15 +32,35 @@ fd-slicer@~1.1.0:
   dependencies:
     pend "~1.2.0"
 
-node-fetch@2.3.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.3.0.tgz#1a1d940bbfb916a1d3e0219f037e89e71f8c5fa5"
-  integrity sha512-MOd8pV3fxENbryESLgVIeaGKrdl+uaYhCSSVkjeOb/31/njTpcis5aWfdqgNlHIrKOLRbMnfPINPOML2CIFeXA==
+node-fetch@2.6.7:
+  version "2.6.7"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.7.tgz#24de9fba827e3b4ae44dc8b20256a379160052ad"
+  integrity sha512-ZjMPFEfVx5j+y2yF35Kzx5sF7kDzxuDj6ziH4FFbOp87zKDZNx8yExJIb05OGF4Nlt9IHFIMBkRl41VdvcNdbQ==
+  dependencies:
+    whatwg-url "^5.0.0"
 
 pend@~1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/pend/-/pend-1.2.0.tgz#7a57eb550a6783f9115331fcf4663d5c8e007a50"
   integrity sha1-elfrVQpng/kRUzH89GY9XI4AelA=
+
+tr46@~0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/tr46/-/tr46-0.0.3.tgz#8184fd347dac9cdc185992f3a6622e14b9d9ab6a"
+  integrity sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw==
+
+webidl-conversions@^3.0.0:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/webidl-conversions/-/webidl-conversions-3.0.1.tgz#24534275e2a7bc6be7bc86611cc16ae0a5654871"
+  integrity sha512-2JAn3z8AR6rjK8Sm8orRC0h/bcl/DqL7tRPdGZ4I1CjdF+EaMLmYxBHyXuKL849eucPFhvBoxMsflfOb8kxaeQ==
+
+whatwg-url@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/whatwg-url/-/whatwg-url-5.0.0.tgz#966454e8765462e37644d3626f6742ce8b70965d"
+  integrity sha512-saE57nupxk6v3HY35+jzBwYa0rKSy0XR8JSxZPwgLr7ys0IBzhGviA1/TUGJLmSVqs8pb9AnvICXEuOHLprYTw==
+  dependencies:
+    tr46 "~0.0.3"
+    webidl-conversions "^3.0.0"
 
 yauzl@2.10.0:
   version "2.10.0"
